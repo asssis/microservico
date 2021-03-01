@@ -1,0 +1,32 @@
+﻿ 
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Anuncios</h1> 
+</div>
+ 
+<canvas id="myChart" width="400" height="200"></canvas>
+<script>
+var ctx = document.getElementById('myChart').getContext('2d'); 
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    label: 'Anuncios Visualizados',
+    data: {
+        labels: @Html.Raw(@ViewBag.campos),
+        datasets: [{ 
+            data: @Html.Raw(@ViewBag.valores) 
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+</script>
