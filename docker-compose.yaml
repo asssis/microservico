@@ -41,6 +41,7 @@ services:
     ports:
       - "5000:5000"
       - "5001:5001"
+    command: "cd ~ && git pull git@github.com:asssis/microservico.git && chmod +777 start.sh && ./start.sh"
 networks: 
   broker-kafka:
     driver: bridge  
