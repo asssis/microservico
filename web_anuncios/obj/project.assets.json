@@ -6403,7 +6403,7 @@
     ]
   },
   "packageFolders": {
-    "/home/assis/.nuget/packages/": {},
+    "/root/.nuget/packages/": {},
     "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
@@ -6412,14 +6412,14 @@
       "projectUniqueName": "/home/assis/microservices/api_publicidade/web_anuncios/web_anuncios.csproj",
       "projectName": "web_anuncios",
       "projectPath": "/home/assis/microservices/api_publicidade/web_anuncios/web_anuncios.csproj",
-      "packagesPath": "/home/assis/.nuget/packages/",
+      "packagesPath": "/root/.nuget/packages/",
       "outputPath": "/home/assis/microservices/api_publicidade/web_anuncios/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/assis/.nuget/NuGet/NuGet.Config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
